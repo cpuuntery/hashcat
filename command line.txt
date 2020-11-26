@@ -1,0 +1,1 @@
+hashcat64.exe -m 2500 -a3 -o cracked radi.hccapx ?d?d?d?d?d?d?d?d
