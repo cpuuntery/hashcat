@@ -1,0 +1,3555 @@
+2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Yousif\hashcat-5.1.0\hashcat-5.1.0>hashcat64.exe -m 2500  -a 3 C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx ?d?d?d?d?d?d?d?d -o outfile.txt
+hashcat (v5.1.0) starting...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: GeForce GTX 1050 Ti, 1024/4096 MB allocatable, 6MCU
+
+Hashes: 8 digests; 6 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Applicable optimizers:
+* Zero-Byte
+* Single-Salt
+* Brute-Force
+* Slow-Hash-SIMD-LOOP
+
+Minimum password length supported by kernel: 8
+Maximum password length supported by kernel: 63
+
+Watchdog: Temperature abort trigger set to 90c
+
+Cracking performance lower than expected?
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Update your OpenCL runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (16 secs)
+Time.Estimated...: Sat Dec 31 23:18:03 2022 (14 mins, 33 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.41ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 1769472/100000000 (1.77%)
+Rejected.........: 0/1769472 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:1184-1200
+Candidates.#1....: 62345678 -> 63044988
+Hardware.Mon.#1..: Temp: 55c Fan:  0% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (20 secs)
+Time.Estimated...: Sat Dec 31 23:18:03 2022 (14 mins, 29 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.5 kH/s (6.41ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 2162688/100000000 (2.16%)
+Rejected.........: 0/2162688 (0.00%)
+Restore.Point....: 196608/10000000 (1.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:1632-1648
+Candidates.#1....: 06044988 -> 05108345
+Hardware.Mon.#1..: Temp: 56c Fan:  0% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (25 secs)
+Time.Estimated...: Sat Dec 31 23:18:03 2022 (14 mins, 24 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.5 kH/s (6.42ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 2752512/100000000 (2.75%)
+Rejected.........: 0/2752512 (0.00%)
+Restore.Point....: 196608/10000000 (1.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1088-1104
+Candidates.#1....: 96044988 -> 95108345
+Hardware.Mon.#1..: Temp: 57c Fan: 17% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (26 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (14 mins, 24 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.5 kH/s (6.42ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 2752512/100000000 (2.75%)
+Rejected.........: 0/2752512 (0.00%)
+Restore.Point....: 196608/10000000 (1.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:3792-3808
+Candidates.#1....: 96044988 -> 95108345
+Hardware.Mon.#1..: Temp: 57c Fan: 31% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (27 secs)
+Time.Estimated...: Sat Dec 31 23:18:03 2022 (14 mins, 22 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.5 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 2949120/100000000 (2.95%)
+Rejected.........: 0/2949120 (0.00%)
+Restore.Point....: 196608/10000000 (1.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:1616-1632
+Candidates.#1....: 46044988 -> 45108345
+Hardware.Mon.#1..: Temp: 57c Fan: 39% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (54 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (13 mins, 57 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.42ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 5898240/100000000 (5.90%)
+Rejected.........: 0/5898240 (0.00%)
+Restore.Point....: 589824/10000000 (5.90%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:3744-3760
+Candidates.#1....: 10274799 -> 11333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (55 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 55 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 6094848/100000000 (6.09%)
+Rejected.........: 0/6094848 (0.00%)
+Restore.Point....: 589824/10000000 (5.90%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:2384-2400
+Candidates.#1....: 00274799 -> 01333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 0 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 50 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 6684672/100000000 (6.68%)
+Rejected.........: 0/6684672 (0.00%)
+Restore.Point....: 589824/10000000 (5.90%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1552-1568
+Candidates.#1....: 90274799 -> 91333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 2 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 48 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 6881280/100000000 (6.88%)
+Rejected.........: 0/6881280 (0.00%)
+Restore.Point....: 589824/10000000 (5.90%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:2144-2160
+Candidates.#1....: 40274799 -> 41333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 4 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 46 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.42ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 7077888/100000000 (7.08%)
+Rejected.........: 0/7077888 (0.00%)
+Restore.Point....: 589824/10000000 (5.90%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:2432-2448
+Candidates.#1....: 50274799 -> 51333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 16 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 34 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 8454144/100000000 (8.45%)
+Rejected.........: 0/8454144 (0.00%)
+Restore.Point....: 786432/10000000 (7.86%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:1616-1632
+Candidates.#1....: 38907469 -> 37779645
+Hardware.Mon.#1..: Temp: 58c Fan: 45% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 23 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (13 mins, 27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 9240576/100000000 (9.24%)
+Rejected.........: 0/9240576 (0.00%)
+Restore.Point....: 786432/10000000 (7.86%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1216-1232
+Candidates.#1....: 88907469 -> 87779645
+Hardware.Mon.#1..: Temp: 58c Fan: 45% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (1 min, 24 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (13 mins, 27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 9240576/100000000 (9.24%)
+Rejected.........: 0/9240576 (0.00%)
+Restore.Point....: 786432/10000000 (7.86%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:3808-3824
+Candidates.#1....: 88907469 -> 87779645
+Hardware.Mon.#1..: Temp: 58c Fan: 45% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (3 mins, 39 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (11 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 24576000/100000000 (24.58%)
+Rejected.........: 0/24576000 (0.00%)
+Restore.Point....: 2359296/10000000 (23.59%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:1344-1360
+Candidates.#1....: 44946221 -> 49177250
+Hardware.Mon.#1..: Temp: 58c Fan: 46% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (6 mins, 31 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (8 mins, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.42ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 43843584/100000000 (43.84%)
+Rejected.........: 0/43843584 (0.00%)
+Restore.Point....: 4325376/10000000 (43.25%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:848-864
+Candidates.#1....: 34449113 -> 39598792
+Hardware.Mon.#1..: Temp: 59c Fan: 48% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (10 mins, 35 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (4 mins, 16 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 71172096/100000000 (71.17%)
+Rejected.........: 0/71172096 (0.00%)
+Restore.Point....: 7077888/10000000 (70.78%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3136-3152
+Candidates.#1....: 26843881 -> 25718103
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (11 mins, 34 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (3 mins, 16 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.4 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 77856768/100000000 (77.86%)
+Rejected.........: 0/77856768 (0.00%)
+Restore.Point....: 7667712/10000000 (76.68%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:2624-2640
+Candidates.#1....: 58156365 -> 57192837
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 45 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (1 min, 5 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92602368/100000000 (92.60%)
+Rejected.........: 0/92602368 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:1744-1760
+Candidates.#1....: 04461329 -> 09524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 51 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (1 min, 0 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93192192/100000000 (93.19%)
+Rejected.........: 0/93192192 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1440-1456
+Candidates.#1....: 94461329 -> 99524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 53 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (58 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93388800/100000000 (93.39%)
+Rejected.........: 0/93388800 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:2208-2224
+Candidates.#1....: 44461329 -> 49524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 54 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (57 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:1472-1488
+Candidates.#1....: 54461329 -> 59524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 55 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (57 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:3856-3872
+Candidates.#1....: 54461329 -> 59524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 56 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (55 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93782016/100000000 (93.78%)
+Rejected.........: 0/93782016 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1712-1728
+Candidates.#1....: 84461329 -> 89524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 57 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (55 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93782016/100000000 (93.78%)
+Rejected.........: 0/93782016 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:3856-3872
+Candidates.#1....: 84461329 -> 89524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (13 mins, 58 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (53 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1760-1776
+Candidates.#1....: 74461329 -> 79524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 0 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (51 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94175232/100000000 (94.18%)
+Rejected.........: 0/94175232 (0.00%)
+Restore.Point....: 9240576/10000000 (92.41%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:2176-2192
+Candidates.#1....: 64461329 -> 69524249
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 1 sec)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (50 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94371840/100000000 (94.37%)
+Rejected.........: 0/94371840 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:2224-2240
+Candidates.#1....: 10767139 -> 11869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 5 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (46 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94765056/100000000 (94.77%)
+Rejected.........: 0/94765056 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1392-1408
+Candidates.#1....: 20767139 -> 21869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 6 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (44 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94961664/100000000 (94.96%)
+Rejected.........: 0/94961664 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:976-992
+Candidates.#1....: 30767139 -> 31869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 7 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (44 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.46ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94961664/100000000 (94.96%)
+Rejected.........: 0/94961664 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:3152-3168
+Candidates.#1....: 30767139 -> 31869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 8 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (43 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95158272/100000000 (95.16%)
+Rejected.........: 0/95158272 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1216-1232
+Candidates.#1....: 90767139 -> 91869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 9 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (43 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95158272/100000000 (95.16%)
+Rejected.........: 0/95158272 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:3232-3248
+Candidates.#1....: 90767139 -> 91869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 10 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (41 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95354880/100000000 (95.35%)
+Rejected.........: 0/95354880 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:656-672
+Candidates.#1....: 40767139 -> 41869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 10 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (41 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95354880/100000000 (95.35%)
+Rejected.........: 0/95354880 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:2496-2512
+Candidates.#1....: 40767139 -> 41869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 11 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (39 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95551488/100000000 (95.55%)
+Rejected.........: 0/95551488 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:240-256
+Candidates.#1....: 50767139 -> 51869283
+Hardware.Mon.#1..: Temp: 58c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 13 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (37 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95748096/100000000 (95.75%)
+Rejected.........: 0/95748096 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:176-192
+Candidates.#1....: 80767139 -> 81869283
+Hardware.Mon.#1..: Temp: 58c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 14 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (37 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95748096/100000000 (95.75%)
+Rejected.........: 0/95748096 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1952-1968
+Candidates.#1....: 80767139 -> 81869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 14 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (37 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95748096/100000000 (95.75%)
+Rejected.........: 0/95748096 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:3728-3744
+Candidates.#1....: 80767139 -> 81869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 17 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (34 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96141312/100000000 (96.14%)
+Rejected.........: 0/96141312 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:224-240
+Candidates.#1....: 60767139 -> 61869283
+Hardware.Mon.#1..: Temp: 58c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 18 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (34 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96141312/100000000 (96.14%)
+Rejected.........: 0/96141312 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3280-3296
+Candidates.#1....: 60767139 -> 61869283
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 19 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96337920/100000000 (96.34%)
+Rejected.........: 0/96337920 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:1104-1120
+Candidates.#1....: 18869283 -> 17688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (30 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96534528/100000000 (96.53%)
+Rejected.........: 0/96534528 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:736-752
+Candidates.#1....: 08869283 -> 07688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (29 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96731136/100000000 (96.73%)
+Rejected.........: 0/96731136 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1760-1776
+Candidates.#1....: 28869283 -> 27688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 23 secs)
+Time.Estimated...: Sat Dec 31 23:18:04 2022 (27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96927744/100000000 (96.93%)
+Rejected.........: 0/96927744 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:16-32
+Candidates.#1....: 38869283 -> 37688683
+Hardware.Mon.#1..: Temp: 55c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 28 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97320960/100000000 (97.32%)
+Rejected.........: 0/97320960 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:3472-3488
+Candidates.#1....: 48869283 -> 47688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 29 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (22 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97517568/100000000 (97.52%)
+Rejected.........: 0/97517568 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:1280-1296
+Candidates.#1....: 58869283 -> 57688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 30 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (22 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97517568/100000000 (97.52%)
+Rejected.........: 0/97517568 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:3536-3552
+Candidates.#1....: 58869283 -> 57688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 31 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (20 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97714176/100000000 (97.71%)
+Rejected.........: 0/97714176 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1536-1552
+Candidates.#1....: 88869283 -> 87688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 33 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (18 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97910784/100000000 (97.91%)
+Rejected.........: 0/97910784 (0.00%)
+Restore.Point....: 9633792/10000000 (96.34%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1856-1872
+Candidates.#1....: 78869283 -> 77688683
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 40 secs)
+Time.Estimated...: Sat Dec 31 23:18:06 2022 (12 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.3 kH/s (5.61ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 98643200/100000000 (98.64%)
+Rejected.........: 0/98643200 (0.00%)
+Restore.Point....: 9830400/10000000 (98.30%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3424-3440
+Candidates.#1....: 22332164 -> 27646497
+Hardware.Mon.#1..: Temp: 59c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Bashar.hccapx
+Time.Started.....: Sat Dec 31 23:03:14 2022 (14 mins, 51 secs)
+Time.Estimated...: Sat Dec 31 23:18:05 2022 (0 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   112.2 kH/s (5.61ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/6 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 100000000/100000000 (100.00%)
+Rejected.........: 0/100000000 (0.00%)
+Restore.Point....: 10000000/10000000 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:5-11
+Candidates.#1....: 62332164 -> 67646497
+Hardware.Mon.#1..: Temp: 56c Fan: 49% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Started: Sat Dec 31 23:03:01 2022
+Stopped: Sat Dec 31 23:18:06 2022
+
+C:\Users\Yousif\hashcat-5.1.0\hashcat-5.1.0>hashcat64.exe -m 2500  -a 3 C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx ?d?d?d?d?d?d?d?d -o outfile.txt
+hashcat (v5.1.0) starting...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: GeForce GTX 1050 Ti, 1024/4096 MB allocatable, 6MCU
+
+Hashes: 7 digests; 5 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Applicable optimizers:
+* Zero-Byte
+* Single-Salt
+* Brute-Force
+* Slow-Hash-SIMD-LOOP
+
+Minimum password length supported by kernel: 8
+Maximum password length supported by kernel: 63
+
+Watchdog: Temperature abort trigger set to 90c
+
+Cracking performance lower than expected?
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Update your OpenCL runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (33 secs)
+Time.Estimated...: Sat Dec 31 23:38:22 2022 (16 mins, 37 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    97094 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 3145728/100000000 (3.15%)
+Rejected.........: 0/3145728 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1360-1376
+Candidates.#1....: 72345678 -> 75108345
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (38 secs)
+Time.Estimated...: Sat Dec 31 23:38:25 2022 (16 mins, 35 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96903 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 3538944/100000000 (3.54%)
+Rejected.........: 0/3538944 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:2080-2096
+Candidates.#1....: 62345678 -> 65108345
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (39 secs)
+Time.Estimated...: Sat Dec 31 23:38:26 2022 (16 mins, 35 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96903 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 3538944/100000000 (3.54%)
+Rejected.........: 0/3538944 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3152-3168
+Candidates.#1....: 62345678 -> 65108345
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (43 secs)
+Time.Estimated...: Sat Dec 31 23:38:27 2022 (16 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96759 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 3932160/100000000 (3.93%)
+Rejected.........: 0/3932160 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:2560-2576
+Candidates.#1....: 14108345 -> 11333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (44 secs)
+Time.Estimated...: Sat Dec 31 23:38:28 2022 (16 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96759 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 3932160/100000000 (3.93%)
+Rejected.........: 0/3932160 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:3488-3504
+Candidates.#1....: 14108345 -> 11333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (45 secs)
+Time.Estimated...: Sat Dec 31 23:38:27 2022 (16 mins, 30 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96641 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4325376/100000000 (4.33%)
+Rejected.........: 0/4325376 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:272-288
+Candidates.#1....: 04108345 -> 01333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (46 secs)
+Time.Estimated...: Sat Dec 31 23:38:28 2022 (16 mins, 30 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96641 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4325376/100000000 (4.33%)
+Rejected.........: 0/4325376 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:1248-1264
+Candidates.#1....: 04108345 -> 01333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (48 secs)
+Time.Estimated...: Sat Dec 31 23:38:30 2022 (16 mins, 30 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96641 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4325376/100000000 (4.33%)
+Rejected.........: 0/4325376 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:3408-3424
+Candidates.#1....: 04108345 -> 01333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (48 secs)
+Time.Estimated...: Sat Dec 31 23:38:30 2022 (16 mins, 30 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96641 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4325376/100000000 (4.33%)
+Rejected.........: 0/4325376 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:3-8
+Candidates.#1....: 04108345 -> 01333755
+Hardware.Mon.#1..: Temp: 54c Fan: 44% Util: 80% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (49 secs)
+Time.Estimated...: Sat Dec 31 23:38:27 2022 (16 mins, 26 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96541 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4718592/100000000 (4.72%)
+Rejected.........: 0/4718592 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:560-576
+Candidates.#1....: 24108345 -> 21333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (50 secs)
+Time.Estimated...: Sat Dec 31 23:38:28 2022 (16 mins, 26 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96541 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4718592/100000000 (4.72%)
+Rejected.........: 0/4718592 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1168-1184
+Candidates.#1....: 24108345 -> 21333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (50 secs)
+Time.Estimated...: Sat Dec 31 23:38:28 2022 (16 mins, 26 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96541 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4718592/100000000 (4.72%)
+Rejected.........: 0/4718592 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1760-1776
+Candidates.#1....: 24108345 -> 21333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (51 secs)
+Time.Estimated...: Sat Dec 31 23:38:29 2022 (16 mins, 26 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96541 H/s (12.91ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 4718592/100000000 (4.72%)
+Rejected.........: 0/4718592 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:2592-2608
+Candidates.#1....: 24108345 -> 21333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (53 secs)
+Time.Estimated...: Sat Dec 31 23:38:28 2022 (16 mins, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96459 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 5111808/100000000 (5.11%)
+Rejected.........: 0/5111808 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:832-848
+Candidates.#1....: 34108345 -> 31333755
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (55 secs)
+Time.Estimated...: Sat Dec 31 23:38:30 2022 (16 mins, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96459 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 5111808/100000000 (5.11%)
+Rejected.........: 0/5111808 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:2080-2096
+Candidates.#1....: 34108345 -> 31333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (55 secs)
+Time.Estimated...: Sat Dec 31 23:38:30 2022 (16 mins, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    96459 H/s (12.91ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 5111808/100000000 (5.11%)
+Rejected.........: 0/5111808 (0.00%)
+Restore.Point....: 393216/10000000 (3.93%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:2688-2704
+Candidates.#1....: 34108345 -> 31333755
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 42 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 44 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95750 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15335424/100000000 (15.34%)
+Rejected.........: 0/15335424 (0.00%)
+Restore.Point....: 1179648/10000000 (11.80%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:2608-2624
+Candidates.#1....: 66354898 -> 69630356
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 43 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 44 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95750 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15335424/100000000 (15.34%)
+Rejected.........: 0/15335424 (0.00%)
+Restore.Point....: 1179648/10000000 (11.80%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3344-3360
+Candidates.#1....: 66354898 -> 69630356
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 44 secs)
+Time.Estimated...: Sat Dec 31 23:38:36 2022 (14 mins, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95742 H/s (12.91ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15728640/100000000 (15.73%)
+Rejected.........: 0/15728640 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:432-448
+Candidates.#1....: 10489556 -> 17914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 85% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 45 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95742 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15728640/100000000 (15.73%)
+Rejected.........: 0/15728640 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:1616-1632
+Candidates.#1....: 10489556 -> 17914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 85% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 46 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95742 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15728640/100000000 (15.73%)
+Rejected.........: 0/15728640 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:2304-2320
+Candidates.#1....: 10489556 -> 17914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 48 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (14 mins, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95742 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 15728640/100000000 (15.73%)
+Rejected.........: 0/15728640 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:4000-4016
+Candidates.#1....: 10489556 -> 17914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 52 secs)
+Time.Estimated...: Sat Dec 31 23:38:36 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:224-240
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 79% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 53 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.91ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:928-944
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 54 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1680-1696
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 55 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:2560-2576
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 85% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 55 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3296-3312
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 56 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (14 mins, 32 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95728 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16515072/100000000 (16.52%)
+Rejected.........: 0/16515072 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3888-3904
+Candidates.#1....: 20489556 -> 27914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 85% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 57 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 28 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95719 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16908288/100000000 (16.91%)
+Rejected.........: 0/16908288 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:288-304
+Candidates.#1....: 30489556 -> 37914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (2 mins, 57 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 28 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95719 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 16908288/100000000 (16.91%)
+Rejected.........: 0/16908288 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:960-976
+Candidates.#1....: 30489556 -> 37914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 2 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 24 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95712 H/s (12.82ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 17301504/100000000 (17.30%)
+Rejected.........: 0/17301504 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1376-1392
+Candidates.#1....: 90489556 -> 97914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 2 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 24 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95712 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 17301504/100000000 (17.30%)
+Rejected.........: 0/17301504 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1888-1904
+Candidates.#1....: 90489556 -> 97914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 3 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 24 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95712 H/s (12.84ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 17301504/100000000 (17.30%)
+Rejected.........: 0/17301504 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:2336-2352
+Candidates.#1....: 90489556 -> 97914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 14 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95695 H/s (12.82ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18481152/100000000 (18.48%)
+Rejected.........: 0/18481152 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1120-1136
+Candidates.#1....: 80489556 -> 87914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 14 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95695 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18481152/100000000 (18.48%)
+Rejected.........: 0/18481152 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1392-1408
+Candidates.#1....: 80489556 -> 87914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 16 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95695 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18481152/100000000 (18.48%)
+Rejected.........: 0/18481152 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:3600-3616
+Candidates.#1....: 80489556 -> 87914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 18 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:720-736
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 19 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1696-1712
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:2768-2784
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:3280-3296
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:3744-3760
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95688 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 18874368/100000000 (18.87%)
+Rejected.........: 0/18874368 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:3-8
+Candidates.#1....: 70489556 -> 77914643
+Hardware.Mon.#1..: Temp: 53c Fan: 45% Util: 80% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:36 2022 (14 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95684 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 19267584/100000000 (19.27%)
+Rejected.........: 0/19267584 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:432-448
+Candidates.#1....: 60489556 -> 67914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95684 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 19267584/100000000 (19.27%)
+Rejected.........: 0/19267584 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:944-960
+Candidates.#1....: 60489556 -> 67914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (3 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (14 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95684 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 19267584/100000000 (19.27%)
+Rejected.........: 0/19267584 (0.00%)
+Restore.Point....: 1572864/10000000 (15.73%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:1472-1488
+Candidates.#1....: 60489556 -> 67914643
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (4 mins, 55 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (12 mins, 33 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95612 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 27918336/100000000 (27.92%)
+Rejected.........: 0/27918336 (0.00%)
+Restore.Point....: 2752512/10000000 (27.53%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:2960-2976
+Candidates.#1....: 08130850 -> 03265191
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (5 mins, 0 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (12 mins, 29 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95609 H/s (12.81ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 28311552/100000000 (28.31%)
+Rejected.........: 0/28311552 (0.00%)
+Restore.Point....: 2752512/10000000 (27.53%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3-8
+Candidates.#1....: 28130850 -> 23265191
+Hardware.Mon.#1..: Temp: 53c Fan: 45% Util: 80% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (5 mins, 0 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (12 mins, 25 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95608 H/s (12.82ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 28704768/100000000 (28.70%)
+Rejected.........: 0/28704768 (0.00%)
+Restore.Point....: 2752512/10000000 (27.53%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:592-608
+Candidates.#1....: 38130850 -> 33265191
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (5 mins, 2 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (12 mins, 25 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95608 H/s (12.84ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 28704768/100000000 (28.70%)
+Rejected.........: 0/28704768 (0.00%)
+Restore.Point....: 2752512/10000000 (27.53%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:1920-1936
+Candidates.#1....: 38130850 -> 33265191
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 16 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95572 H/s (12.82ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 35782656/100000000 (35.78%)
+Rejected.........: 0/35782656 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:1920-1936
+Candidates.#1....: 00593252 -> 07411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 17 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95572 H/s (12.83ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 35782656/100000000 (35.78%)
+Rejected.........: 0/35782656 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:2656-2672
+Candidates.#1....: 00593252 -> 07411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 17 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95572 H/s (12.84ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 35782656/100000000 (35.78%)
+Rejected.........: 0/35782656 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:3184-3200
+Candidates.#1....: 00593252 -> 07411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 18 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (11 mins, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95572 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 35782656/100000000 (35.78%)
+Rejected.........: 0/35782656 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:3696-3712
+Candidates.#1....: 00593252 -> 07411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 18 secs)
+Time.Estimated...: Sat Dec 31 23:38:37 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:0-16
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 53c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 19 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:512-528
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 19 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:976-992
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:1472-1488
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:2016-2032
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:2560-2576
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3040-3056
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3536-3552
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (11 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95571 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36175872/100000000 (36.18%)
+Rejected.........: 0/36175872 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:4064-4080
+Candidates.#1....: 20593252 -> 27411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 23 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:240-256
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 77% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 23 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:752-768
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 24 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:1264-1280
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 24 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:1728-1744
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 24 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:2192-2208
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 25 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:2656-2672
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 25 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.85ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:3136-3152
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 26 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.86ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:3584-3600
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 26 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (11 mins, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95569 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36569088/100000000 (36.57%)
+Rejected.........: 0/36569088 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:4032-4048
+Candidates.#1....: 30593252 -> 37411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 27 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (10 mins, 59 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95568 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36962304/100000000 (36.96%)
+Rejected.........: 0/36962304 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:240-256
+Candidates.#1....: 90593252 -> 97411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 27 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (10 mins, 59 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95568 H/s (12.89ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36962304/100000000 (36.96%)
+Rejected.........: 0/36962304 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:672-688
+Candidates.#1....: 90593252 -> 97411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 27 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (10 mins, 59 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95568 H/s (12.90ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36962304/100000000 (36.96%)
+Rejected.........: 0/36962304 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1088-1104
+Candidates.#1....: 90593252 -> 97411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 28 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (10 mins, 59 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95568 H/s (12.88ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36962304/100000000 (36.96%)
+Rejected.........: 0/36962304 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1552-1568
+Candidates.#1....: 90593252 -> 97411042
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (6 mins, 28 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (10 mins, 59 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95568 H/s (12.87ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 36962304/100000000 (36.96%)
+Rejected.........: 0/36962304 (0.00%)
+Restore.Point....: 3538944/10000000 (35.39%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1904-1920
+Candidates.#1....: 90593252 -> 97411042
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (15 mins, 50 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 90439680/100000000 (90.44%)
+Rejected.........: 0/90439680 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:3472-3488
+Candidates.#1....: 16934009 -> 19524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (15 mins, 57 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 31 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.75ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 91226112/100000000 (91.23%)
+Rejected.........: 0/91226112 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:2240-2256
+Candidates.#1....: 26934009 -> 29524249
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (15 mins, 58 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 31 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 91226112/100000000 (91.23%)
+Rejected.........: 0/91226112 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:2-3 Iteration:3536-3552
+Candidates.#1....: 26934009 -> 29524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (15 mins, 59 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (1 min, 27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 91619328/100000000 (91.62%)
+Rejected.........: 0/91619328 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:80-96
+Candidates.#1....: 36934009 -> 39524249
+Hardware.Mon.#1..: Temp: 55c Fan: 45% Util: 70% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 0 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 91619328/100000000 (91.62%)
+Rejected.........: 0/91619328 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:848-864
+Candidates.#1....: 36934009 -> 39524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 0 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 27 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 91619328/100000000 (91.62%)
+Rejected.........: 0/91619328 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:3-4 Iteration:1648-1664
+Candidates.#1....: 36934009 -> 39524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 5 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.76ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92012544/100000000 (92.01%)
+Rejected.........: 0/92012544 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1968-1984
+Candidates.#1....: 96934009 -> 99524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 6 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92012544/100000000 (92.01%)
+Rejected.........: 0/92012544 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:2736-2752
+Candidates.#1....: 96934009 -> 99524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 6 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92012544/100000000 (92.01%)
+Rejected.........: 0/92012544 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:3488-3504
+Candidates.#1....: 96934009 -> 99524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 7 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 23 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92012544/100000000 (92.01%)
+Rejected.........: 0/92012544 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:4080-4095
+Candidates.#1....: 96934009 -> 99524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 7 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (1 min, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92405760/100000000 (92.41%)
+Rejected.........: 0/92405760 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:432-448
+Candidates.#1....: 46934009 -> 49524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 8 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92405760/100000000 (92.41%)
+Rejected.........: 0/92405760 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:976-992
+Candidates.#1....: 46934009 -> 49524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 9 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92405760/100000000 (92.41%)
+Rejected.........: 0/92405760 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:1680-1696
+Candidates.#1....: 46934009 -> 49524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 9 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92405760/100000000 (92.41%)
+Rejected.........: 0/92405760 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:2304-2320
+Candidates.#1....: 46934009 -> 49524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 11 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 19 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92405760/100000000 (92.41%)
+Rejected.........: 0/92405760 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:4-9
+Candidates.#1....: 46934009 -> 49524249
+Hardware.Mon.#1..: Temp: 53c Fan: 45% Util: 81% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 12 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 15 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92798976/100000000 (92.80%)
+Rejected.........: 0/92798976 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:496-512
+Candidates.#1....: 56934009 -> 59524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 13 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 15 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92798976/100000000 (92.80%)
+Rejected.........: 0/92798976 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:1392-1408
+Candidates.#1....: 56934009 -> 59524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 15 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 15 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95520 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 92798976/100000000 (92.80%)
+Rejected.........: 0/92798976 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:3824-3840
+Candidates.#1....: 56934009 -> 59524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 15 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (1 min, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93192192/100000000 (93.19%)
+Rejected.........: 0/93192192 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:176-192
+Candidates.#1....: 86934009 -> 89524249
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 77% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 16 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93192192/100000000 (93.19%)
+Rejected.........: 0/93192192 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:1152-1168
+Candidates.#1....: 86934009 -> 89524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 17 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.80ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93192192/100000000 (93.19%)
+Rejected.........: 0/93192192 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:2128-2144
+Candidates.#1....: 86934009 -> 89524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 18 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 11 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.80ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93192192/100000000 (93.19%)
+Rejected.........: 0/93192192 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:7-8 Iteration:2768-2784
+Candidates.#1....: 86934009 -> 89524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.76ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:384-400
+Candidates.#1....: 76934009 -> 79524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 21 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1456-1472
+Candidates.#1....: 76934009 -> 79524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 22 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:2288-2304
+Candidates.#1....: 76934009 -> 79524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 23 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93585408/100000000 (93.59%)
+Rejected.........: 0/93585408 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:3248-3264
+Candidates.#1....: 76934009 -> 79524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 24 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (1 min, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:64-80
+Candidates.#1....: 66934009 -> 69524249
+Hardware.Mon.#1..: Temp: 55c Fan: 45% Util: 78% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 25 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.80ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:1072-1088
+Candidates.#1....: 66934009 -> 69524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 25 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (1 min, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.80ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:1808-1824
+Candidates.#1....: 66934009 -> 69524249
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 82% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 26 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (1 min, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.80ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:2576-2592
+Candidates.#1....: 66934009 -> 69524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 27 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (1 min, 3 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.79ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 93978624/100000000 (93.98%)
+Rejected.........: 0/93978624 (0.00%)
+Restore.Point....: 9043968/10000000 (90.44%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3376-3392
+Candidates.#1....: 66934009 -> 69524249
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 28 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (58 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94371840/100000000 (94.37%)
+Rejected.........: 0/94371840 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:480-496
+Candidates.#1....: 10767139 -> 17688683
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 29 secs)
+Time.Estimated...: Sat Dec 31 23:38:39 2022 (58 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94371840/100000000 (94.37%)
+Rejected.........: 0/94371840 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:1472-1488
+Candidates.#1....: 10767139 -> 17688683
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 30 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (58 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.78ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 94371840/100000000 (94.37%)
+Rejected.........: 0/94371840 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:2368-2384
+Candidates.#1....: 10767139 -> 17688683
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 52 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (38 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.75ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96337920/100000000 (96.34%)
+Rejected.........: 0/96337920 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:1-6
+Candidates.#1....: 40767139 -> 47688683
+Hardware.Mon.#1..: Temp: 54c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (16 mins, 56 secs)
+Time.Estimated...: Sat Dec 31 23:38:42 2022 (34 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 96731136/100000000 (96.73%)
+Rejected.........: 0/96731136 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:3872-3888
+Candidates.#1....: 50767139 -> 57688683
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 83% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (17 mins, 8 secs)
+Time.Estimated...: Sat Dec 31 23:38:41 2022 (21 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95519 H/s (12.77ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 97910784/100000000 (97.91%)
+Rejected.........: 0/97910784 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:2928-2944
+Candidates.#1....: 60767139 -> 67688683
+Hardware.Mon.#1..: Temp: 57c Fan: 45% Util: 84% Core:1797MHz Mem:3504MHz Bus:16
+
+Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (17 mins, 11 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (17 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95518 H/s (5.57ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 98304000/100000000 (98.30%)
+Rejected.........: 0/98304000 (0.00%)
+Restore.Point....: 9830400/10000000 (98.30%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:2736-2752
+Candidates.#1....: 12332164 -> 17646497
+Hardware.Mon.#1..: Temp: 52c Fan: 45% Util: 37% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (17 mins, 20 secs)
+Time.Estimated...: Sat Dec 31 23:38:40 2022 (8 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95407 H/s (5.61ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 99152000/100000000 (99.15%)
+Rejected.........: 0/99152000 (0.00%)
+Restore.Point....: 9830400/10000000 (98.30%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:3120-3136
+Candidates.#1....: 42332164 -> 47646497
+Hardware.Mon.#1..: Temp: 58c Fan: 45% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\SAMER.hccapx
+Time.Started.....: Sat Dec 31 23:21:12 2022 (17 mins, 26 secs)
+Time.Estimated...: Sat Dec 31 23:38:38 2022 (0 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    95524 H/s (5.60ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/5 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 100000000/100000000 (100.00%)
+Rejected.........: 0/100000000 (0.00%)
+Restore.Point....: 10000000/10000000 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:4-9
+Candidates.#1....: 62332164 -> 67646497
+Hardware.Mon.#1..: Temp: 56c Fan: 45% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Started: Sat Dec 31 23:21:05 2022
+Stopped: Sat Dec 31 23:38:40 2022
+
+C:\Users\Yousif\hashcat-5.1.0\hashcat-5.1.0>hashcat64.exe -m 2500  -a 3 C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Muataz.hccapx ?d?d?d?d?d?d?d?d -o outfile.txt
+hashcat (v5.1.0) starting...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: GeForce GTX 1050 Ti, 1024/4096 MB allocatable, 6MCU
+
+Hashes: 2 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Applicable optimizers:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Brute-Force
+* Slow-Hash-SIMD-LOOP
+
+Minimum password length supported by kernel: 8
+Maximum password length supported by kernel: 63
+
+Watchdog: Temperature abort trigger set to 90c
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (8 secs)
+Time.Estimated...: Sat Dec 31 23:56:47 2022 (14 mins, 13 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   116.2 kH/s (6.39ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 786432/100000000 (0.79%)
+Rejected.........: 0/786432 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:1648-1664
+Candidates.#1....: 92345678 -> 93044988
+Hardware.Mon.#1..: Temp: 57c Fan:  8% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+Cracking performance lower than expected?
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Update your OpenCL runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (11 secs)
+Time.Estimated...: Sat Dec 31 23:56:45 2022 (14 mins, 8 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   116.4 kH/s (6.40ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 1179648/100000000 (1.18%)
+Rejected.........: 0/1179648 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:1040-1056
+Candidates.#1....: 52345678 -> 53044988
+Hardware.Mon.#1..: Temp: 57c Fan: 41% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (8 mins, 43 secs)
+Time.Estimated...: Sat Dec 31 23:56:49 2022 (5 mins, 40 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 60555264/100000000 (60.56%)
+Rejected.........: 0/60555264 (0.00%)
+Restore.Point....: 5898240/10000000 (58.98%)
+Restore.Sub.#1...: Salt:0 Amplifier:8-9 Iteration:1056-1072
+Candidates.#1....: 72517370 -> 73582996
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (9 mins, 4 secs)
+Time.Estimated...: Sat Dec 31 23:56:50 2022 (5 mins, 20 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 62914560/100000000 (62.91%)
+Rejected.........: 0/62914560 (0.00%)
+Restore.Point....: 6291456/10000000 (62.91%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:3072-3088
+Candidates.#1....: 14501780 -> 19663726
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (11 mins, 12 secs)
+Time.Estimated...: Sat Dec 31 23:56:50 2022 (3 mins, 12 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 77660160/100000000 (77.66%)
+Rejected.........: 0/77660160 (0.00%)
+Restore.Point....: 7667712/10000000 (76.68%)
+Restore.Sub.#1...: Salt:0 Amplifier:5-6 Iteration:2720-2736
+Candidates.#1....: 48156365 -> 47192837
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (12 mins, 10 secs)
+Time.Estimated...: Sat Dec 31 23:56:51 2022 (2 mins, 15 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 84344832/100000000 (84.34%)
+Rejected.........: 0/84344832 (0.00%)
+Restore.Point....: 8257536/10000000 (82.58%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3712-3728
+Candidates.#1....: 64367216 -> 69218404
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (13 mins, 42 secs)
+Time.Estimated...: Sat Dec 31 23:56:49 2022 (41 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.45ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95158272/100000000 (95.16%)
+Rejected.........: 0/95158272 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:4-5 Iteration:2496-2512
+Candidates.#1....: 90767139 -> 91869283
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (13 mins, 45 secs)
+Time.Estimated...: Sat Dec 31 23:56:49 2022 (38 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.44ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 95551488/100000000 (95.55%)
+Rejected.........: 0/95551488 (0.00%)
+Restore.Point....: 9437184/10000000 (94.37%)
+Restore.Sub.#1...: Salt:0 Amplifier:6-7 Iteration:1536-1552
+Candidates.#1....: 50767139 -> 51869283
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Approaching final keyspace - workload adjusted.
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Muataz ^_^ ZOOM  (AP:b0:95:75:f0:a8:8e STA:5e:a6:e6:0e:85:36)
+Time.Started.....: Sat Dec 31 23:42:26 2022 (14 mins, 24 secs)
+Time.Estimated...: Sat Dec 31 23:56:50 2022 (0 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.8 kH/s (5.62ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 100000000/100000000 (100.00%)
+Rejected.........: 0/100000000 (0.00%)
+Restore.Point....: 10000000/10000000 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:0-1
+Candidates.#1....: 62332164 -> 67646497
+Hardware.Mon.#1..: Temp: 59c Fan: 50% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+Started: Sat Dec 31 23:42:20 2022
+Stopped: Sat Dec 31 23:56:51 2022
+
+C:\Users\Yousif\hashcat-5.1.0\hashcat-5.1.0>hashcat64.exe -m 2500  -a 3 C:\Users\Yousif\hashcat-utils-1.9\hashcat-utils-1.9\bin\Mousauday.hccapx ?d?d?d?d?d?d?d?d -o outfile.txt
+hashcat (v5.1.0) starting...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: GeForce GTX 1050 Ti, 1024/4096 MB allocatable, 6MCU
+
+Hashes: 2 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Applicable optimizers:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Brute-Force
+* Slow-Hash-SIMD-LOOP
+
+Minimum password length supported by kernel: 8
+Maximum password length supported by kernel: 63
+
+Watchdog: Temperature abort trigger set to 90c
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Mousa uday (AP:50:5d:ac:d2:a2:7c STA:42:1f:0e:2e:0d:6a)
+Time.Started.....: Sun Jan 01 00:01:16 2023 (3 secs)
+Time.Estimated...: Sun Jan 01 00:15:45 2023 (14 mins, 26 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.2 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 196608/100000000 (0.20%)
+Rejected.........: 0/196608 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:1-2 Iteration:2160-2176
+Candidates.#1....: 02345678 -> 03044988
+Hardware.Mon.#1..: Temp: 55c Fan:  0% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+Cracking performance lower than expected?
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Update your OpenCL runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>
+
+Session..........: hashcat
+Status...........: Running
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Mousa uday (AP:50:5d:ac:d2:a2:7c STA:42:1f:0e:2e:0d:6a)
+Time.Started.....: Sun Jan 01 00:01:16 2023 (17 secs)
+Time.Estimated...: Sun Jan 01 00:15:40 2023 (14 mins, 7 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests, 0/1 (0.00%) Salts
+Progress.........: 1769472/100000000 (1.77%)
+Rejected.........: 0/1769472 (0.00%)
+Restore.Point....: 0/10000000 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:9-10 Iteration:3888-3904
+Candidates.#1....: 62345678 -> 63044988
+Hardware.Mon.#1..: Temp: 58c Fan: 44% Util: 98% Core:1797MHz Mem:3504MHz Bus:16
+
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Type........: WPA-EAPOL-PBKDF2
+Hash.Target......: Mousa uday (AP:50:5d:ac:d2:a2:7c STA:42:1f:0e:2e:0d:6a)
+Time.Started.....: Sun Jan 01 00:01:16 2023 (19 secs)
+Time.Estimated...: Sun Jan 01 00:01:35 2023 (0 secs)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d [8]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   115.9 kH/s (6.43ms) @ Accel:32 Loops:16 Thr:1024 Vec:1
+Recovered........: 1/1 (100.00%) Digests, 1/1 (100.00%) Salts
+Progress.........: 2162688/100000000 (2.16%)
+Rejected.........: 0/2162688 (0.00%)
+Restore.Point....: 196608/10000000 (1.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#1....: 16044988 -> 15108345
+Hardware.Mon.#1..: Temp: 57c Fan: 44% Util: 99% Core:1797MHz Mem:3504MHz Bus:16
+
+Started: Sun Jan 01 00:01:10 2023
+Stopped: Sun Jan 01 00:01:36 2023

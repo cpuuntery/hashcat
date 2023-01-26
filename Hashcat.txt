@@ -1,0 +1,18 @@
+1- sometimes it doesn't matter if Hashcat identify the hash file as a file or mac address, for example see log1 and log2 and that may become irrelevant with the new version
+P.S. I can not test the new Hashcat because old GPU driver
+
+2- You must always set an output file. Because sometime, Hashcat will continue hashing. Even if it has found a matching hash
+
+hashcat64.exe -m 2500  -a 3 hccapxfile ?d?d?d?d?d?d?d?d -o rasfirsttest.txt
+
+hashcat64.exe -m 2500  -a 3 hccapxfile ?d?d?d?d?d?d?d?d -o sam.txt
+
+3- You can use Wireshark to clear up cap files 
+sa means source
+da means destination
+the sa and da must be both the router mac address
+the filter will be like this 
+
+wlan.sa == 1c:3b:f3:e8:78:82 || wlan.da == 1c:3b:f3:e8:78:82
+
+to export the filter, refer to "export for hashcat.PNG"

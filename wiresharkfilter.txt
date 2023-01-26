@@ -1,0 +1,6 @@
+wlan.sa == b0:39:56:6a:20:31 || wlan.sa == b4:86:55:61:f4:5c
+
+wlan.sa == 1c:3b:f3:e8:78:82 || wlan.da == 1c:3b:f3:e8:78:82|| wlan.sa == 02:69:55:6c:6b:69
+
+
+wlan.sa == 1c:3b:f3:e8:78:82 || wlan.da == 1c:3b:f3:e8:78:82

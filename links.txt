@@ -1,0 +1,17 @@
+https://hashcat.net/forum/thread-6361.html
+https://github.com/aircrack-ng/aircrack-ng/issues/2244
+https://github.com/ZerBea/hcxdumptool/issues/112
+https://hashcat.net/forum/thread-9908-post-51792.html#pid51792
+https://hashcat.net/forum/thread-10253-post-53595.html#pid53595
+https://hashcat.net/forum/thread-10378-post-53719.html#pid53719
+https://hashcat.net/forum/thread-10253-post-53577.html#pid53577
+https://hashcat.net/forum/thread-11212-post-57204.html#pid57204
+https://hashcat.net/forum/thread-10253-post-53634.html#pid53634
+https://github.com/bettercap/bettercap/issues/810
+https://github.com/InfamousSYN/rehandshake
+https://dongknows.com/wi-fi-signal-strength-dbm-explained/
+https://forums.kali.org/showthread.php?19498-MDK3-Secret-Destruction-Mode
+https://kalitut.com/mdk3-examples-tutorial/
+https://kalitut.com/how-to-extract-handshake-from-capture/
+https://www.wifi-professionals.com/2019/01/4-way-handshake
+https://wlan1nde.wordpress.com/2014/10/27/4-way-handshake/
