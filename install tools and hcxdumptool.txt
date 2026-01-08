@@ -1,0 +1,20 @@
+sudo apt update ; sudo apt install aircrack-ng mdk3 mdk4 xterm -y
+
+hcxdumptool v6.2.9
+mac format 112233445566, 11:22:33:44:55:66, 11-22-33-44-55-66
+sudo ./hcxdumptool -o foo.cap -i wlan1 --enable_status=15 --filterlist_ap=[mac format] --filtermode=2 -c 11
+
+hcxdumptool v5.2.2
+sudo ./hcxdumptool -o bar.cap -i wlan1 --enable_status=15 --filterlist_ap= --filtermode=2 -c 11
+
+sudo airmon-ng check kill
+
+sudo ./hcxdumptool -i wlx000da311ee09 --do_rcascan
+
+try using hcxdumptool to enable monitor mode by its self
+
+sudo ./hcxdumptool -o hand.cap -i wlx000da311ee09 --enable_status=15 --filterlist=filter --filtermode=2 -c 11
+
+
+
+
